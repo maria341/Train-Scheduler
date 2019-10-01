@@ -13,6 +13,7 @@
 
   var database = firebase.database();
 
+//create a button function
  $("#add-train-btn").on("click", function(event) {
  event.preventDefault();
 
