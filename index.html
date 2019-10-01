@@ -28,9 +28,9 @@
 
 <body>
     <div class="container">
-        <div class="jumbotron">
-            <h1 class="text-center" style="color:royalblue;">Travel Train Schedule</h1>
-            <h2 class="text-center" style="color:royalblue;">Choo Choo. Chee chee</h2>
+        <div class="jumbotron" style="background-color: #007399;">
+            <h1 class="text-center">Travel Train Schedule</h1>
+            <h2 class="text-center">Choo Choo. Chee chee</h2>
         </div>
         <br>
         <div class="row">
@@ -39,7 +39,7 @@
       
               <!-- Train records-->
               <div class="card mb-4">
-                <div class="card-header" style="color: royalblue;"><h3>Current Time Schedule</h3></div>
+                <div class="card-header" style="background-color: #007399;"><h3>Current Time Schedule</h3></div>
                 <div class="card-body">
                   <table class="table table-sm table-hover" id="train-table">
                         <thead>
@@ -49,6 +49,55 @@
                                 <th>Frequency(min)</th>
                                 <th>Next Arrival</th>
                                 <th>Minutes Away</th>
+                            </tr>
+                             <tr>
+                                <td>Trenton Express</td>
+                                <td>Trenton</td>
+                                <td>25</td>
+                                <td>05:35 PM</td>
+                                <td>10</td>
+                            </tr>
+                             <tr>
+                                <td>Oregon Trail</td>
+                                <td>Salem Oregon</td>
+                                <td>3600</td>
+                                <td>01:39 PM</td>
+                                <td>1154</td>
+                            </tr>
+                             <tr>
+                                <td>Midnight Carriage</td>
+                                <td>Philadelphia</td>
+                                <td>15</td>
+                                <td>05:35 PM</td>
+                                <td>10</td>
+                            </tr>
+                             <tr>
+                                <td>Sing Sing Caravan</td>
+                                <td>Atlanta</td>
+                                <td>45</td>
+                                <td>05:53 PM</td>
+                                <td>28</td>
+                            </tr>
+                             <tr>
+                                <td>Boston Bus</td>
+                                <td>Boston</td>
+                                <td>65</td>
+                                <td>05:50 PM</td>
+                                <td>25</td>
+                            </tr>
+                             <tr>
+                                <td>California Caravan</td>
+                                <td>San Francisco</td>
+                                <td>6000</td>
+                                <td>01:25 AM</td>
+                                <td>4740</td>
+                            </tr>
+                             <tr>
+                                <td>Analben's</td>
+                                <td>Florida</td>
+                                <td>25</td>
+                                <td>05:28 PM</td>
+                                <td>3</td>
                             </tr>
                         </thead>
                         <tbody>
@@ -63,29 +112,29 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="card card-default">
-                    <div class="card-header">
-                        <h3 class="panel-header" style="color: royalblue;">Add Train Name</h3>
+                    <div class="card-header" style="background-color: #007399;">
+                        <h3 class="panel-header"><strong>Add Train Name</strong></h3>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body" style="border-color: #f57e42;">
                         <form>
                             <div class="form-group row">
-                                <label for="train-name">Train Name</label>
+                                <label for="train-name"><strong>Train Name</strong></label>
                                 <input class="form-control" id="train-name" type="text">
                             </div>
                             <div class="form-group row">
-                                <label for="destination">Destination</label>
+                                <label for="destination"><strong>Destination</strong></label>
                                 <input class="form-control" id="destination-input" type="text">
                             </div>
                             <div class="form-group row">
-                                <label for="train-time">First Train Time(HH:mm-military time)</label>
+                                <label for="train-time"><strong>First Train Time(HH:mm-military time)</strong></label>
                                 <input class="form-control" id="firstTrain-input" type="text">
                             </div>
                             <div class="form-group row">
-                                <label for="frequency">Frequency(min)</label>
+                                <label for="frequency"><strong>Frequency(min)</strong></label>
                                 <input class="form-control" id="frequency-input" type="text">
                             </div>
                             <button class="btn btn-default" id="add-train-btn" type="submit"
-                                style="background-color: royalblue;">Submit</button>
+                                style="background-color:  #007399;">Submit</button>
                             </form>
                      </div>
                 </div>

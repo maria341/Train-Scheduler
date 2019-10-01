@@ -67,9 +67,12 @@
     var nextArrival = moment().add(minutesAway, "minutes").format("hh:mm a");
 
    $("#train-table > tbody").append(
-     "<tr><td>" + trainName + "</td><td>" + trainDest + "</td><td>" + freqTime +
-     "</td><td>" + nextArrival + "</td><td>" + minutesAway + "</td><td>"
-   );
+     "<tr><td>" + trainName + 
+     "</td><td>" + trainDest + 
+     "</td><td>" + freqTime +
+     "</td><td>" + nextArrival + 
+     "</td><td>" + minutesAway + 
+     "</td><td>" );
   
 });
 
