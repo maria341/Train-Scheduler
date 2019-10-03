@@ -69,7 +69,7 @@
     //Next train arrival
     var nextArrival = moment().add(minutesAway, "minutes").format("hh:mm a");
 
-   //Show data into the table when user input something
+   //Show data into the table when user add new train
     $("#train-table > tbody").append(
      "<tr><td>" + trainName + 
      "</td><td>" + trainDest + 
