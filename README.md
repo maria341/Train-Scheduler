@@ -15,3 +15,5 @@ Use firebase to store data.
 # Example Picture Below
 ![](https://github.com/maria341/Train-Scheduler/blob/master/assets/images/Screenshot%201.png)
 
+![](https://github.com/maria341/Train-Scheduler/blob/master/assets/images/Screenshot%202.png)
+
