@@ -12,3 +12,6 @@ Use firebase to store data.
 * Moment.js
 * Firebase for Database
 
+# Example Picture Below
+![](https://github.com/maria341/Train-Scheduler/blob/master/assets/images/Screenshot%201.png)
+
